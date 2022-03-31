@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Carrot Clicker</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <script src="script.js"></script>
+
+    <div>
+      <h1 id="mainTitle">Carrot Clicker</h1>
+    </div>
+    
+    <div>
+      <h2 id="carrotPointsCss">Carrots: <span id="carrotPoints">0</span></h2>
+    </div>
+
+    <br>
+    
+    <div>
+      <img src="media/carrot.png" id="carrotClickerButton" onclick="onCarrotClick()">
+    </div>
+
+    <br>
+    <br>
+    
+    <div>
+      <h1 id="upgradeTitle">Upgrades:</h1>
+
+      <h2 id="carrotFarmerUpgrade1PriceText">Carrot Farmer: <span id="clickUpgrade1Price">50</span></h2>
+      <img src="media/carrot_farmer.jpeg" id="clickUpgrade1" onclick="onClickUpgrade1Click()">
+
+      <br>
+      
+      <h2 id="carrotFactoryUpgrade2PriceText">Carrot Factory: <span id="carrotFactoryPrice">300</span></h2>
+      <img src="media/carrot_factory.jpeg" id="autoClickUpgrade2" onclick="onClickUpgrade1AutoClick()">
+    </div>
+
+    <br>
+    <br>
+    
+    <div>
+      <h1 id="carrotButtonUpgrades">Carrots:</h1>
+
+      <h2 id="commonCarrotUpgradeText">Common Carrot: 5000</h2>
+
+      <img src="media/common_carrot.jpg" width="400" height="255" id="commonCarrotUpgradeButton" onclick="">
+
+      <h2 id="rareCarrotUpgradeText">Rare Carrot: 100,000</h2>
+
+      <img src="media/rare_carrot.jpeg" width="500" height="255" id="rareCarrotUpgradeButton" onclick="">
+    </div>
+  </body>
+</html>

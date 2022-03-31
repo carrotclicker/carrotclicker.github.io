@@ -1,0 +1,65 @@
+#mainTitle {
+  text-align: center;
+}
+
+#carrotPointsCss {
+  text-align: center;
+}
+
+#carrotClickerButton {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#upgradeTitle {
+  text-align: center;
+}
+
+#carrotFarmerUpgrade1PriceText {
+  text-align: center;
+}
+
+#clickUpgrade1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#carrotFactoryUpgrade2PriceText {
+  text-align: center;
+}
+
+#autoClickUpgrade2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#carrotButtonUpgrades {
+  text-align: center;
+}
+
+#commonCarrotUpgradeText {
+  text-align: center;
+
+  color: gray;
+}
+
+#commonCarrotUpgradeButton {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#rareCarrotUpgradeText {
+  text-align: center;
+  
+  color: blue;
+}
+
+#rareCarrotUpgradeButton {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
