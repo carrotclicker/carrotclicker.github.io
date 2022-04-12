@@ -63,6 +63,8 @@ function commonCarrotUpgradeClick() {
     
     var commonCarrotText = document.getElementById("commonCarrotUpgradeText");
     commonCarrotText.remove();
+  } else {
+    alert("You don't have enough carrots for that!");
   }
 }
 
