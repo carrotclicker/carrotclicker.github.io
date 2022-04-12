@@ -4,6 +4,7 @@ var add1ClickPoints = 50;
 var pointsGotFromClickUpgrade = 0;
 var autoClickPrice = 300;
 var autoClickPoints = 1;
+var commonCarrotPrice = 5000;
 
 document.body.onkeyup = function(e){
   onCarrotClick()
@@ -49,6 +50,19 @@ function onClickUpgrade1AutoClick() {
   setInterval(onAutoClick, 500);
   } else {
     alert("You don't Have enough carrots for that!");
+  }
+}
+
+function commonCarrotUpgradeClick() {
+  if (carrotClickPoints >= commonCarrotPrice) {
+    carrotClickPoints = carrotClickPoints - commonCarrotPrice;
+    pointsGotOnCarrotClick = pointsGotOnCarrotClick + 100;
+    
+    var commonCarrotImage = document.getElementById("commonCarrotUpgradeButton");
+    commonCarrotImage.remove();
+    
+    var commonCarrotText = document.getElementById("commonCarrotUpgradeText");
+    commonCarrotText.remove();
   }
 }
 
