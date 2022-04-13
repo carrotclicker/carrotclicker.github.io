@@ -54,6 +54,18 @@
 
 #rareCarrotUpgradeText {
   text-align: center;
+
+  color: gray;
+}
+
+#rareCarrotUpgradeButton {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#rareCarrotUpgradeText {
+  text-align: center;
   
   color: blue;
 }
