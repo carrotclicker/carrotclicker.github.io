@@ -5,6 +5,7 @@ var pointsGotFromClickUpgrade = 0;
 var autoClickPrice = 300;
 var autoClickPoints = 1;
 var commonCarrotPrice = 5000;
+var rareCarrotPrice = 100000;
 
 document.body.onkeyup = function(e){
   onCarrotClick()
@@ -56,13 +57,28 @@ function onClickUpgrade1AutoClick() {
 function commonCarrotUpgradeClick() {
   if (carrotClickPoints >= commonCarrotPrice) {
     carrotClickPoints = carrotClickPoints - commonCarrotPrice;
-    pointsGotOnCarrotClick = pointsGotOnCarrotClick + 100;
+    pointsGotOnCarrotClick = pointsGotOnCarrotClick + 50;
     
     var commonCarrotImage = document.getElementById("commonCarrotUpgradeButton");
     commonCarrotImage.remove();
     
     var commonCarrotText = document.getElementById("commonCarrotUpgradeText");
     commonCarrotText.remove();
+  } else {
+    alert("You don't have enough carrots for that!");
+  }
+}
+
+function rareCarrotUpgradeClick() {
+  if (carrotClickPoints >= rareCarrotPrice) {
+    carrotClickPoints = carrotClickPoints - rareCarrotPrice;
+    pointsGotOnCarrotClick = pointsGotOnCarrotClick + 1000;
+    
+    var rareCarrotImage = document.getElementById("rareCarrotUpgradeButton");
+    rareCarrotImage.remove();
+    
+    var rareCarrotText = document.getElementById("rareCarrotUpgradeText");
+    rareCarrotText.remove();
   } else {
     alert("You don't have enough carrots for that!");
   }
