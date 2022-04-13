@@ -52,13 +52,13 @@
   margin-right: auto;
 }
 
-#rareCarrotUpgradeText {
+#uncommonCarrotUpgradeText {
   text-align: center;
 
   color: gray;
 }
 
-#rareCarrotUpgradeButton {
+#uncommonCarrotUpgradeButton {
   display: block;
   margin-left: auto;
   margin-right: auto;
