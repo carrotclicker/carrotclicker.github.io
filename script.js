@@ -18,25 +18,13 @@ document.body.onkeyup = function(e){
 function secondsPlayedTimer() {
   secondsPlayed = secondsPlayed + 1;
   document.getElementById("secondsPlayedTimerText").innerHTML = secondsPlayed;
-}
-
-function minutesPlayedTimer() {
+  
   if (secondsPlayed == 60) {
     secondsPlayed = 0;
     document.getElementById("secondsPlayedTimerText").innerHTML = secondsPlayed;
     
     minutesPlayed = minutesPlayed + 1;
     document.getElementById("minutesPlayedTimerText").innerHTML = minutesPlayed;
-  }
-}
-
-function hoursPlayedTimer() {
-  if (minutesPlayed == 60) {
-    minutesPlayed = 0;
-    document.getElementById("minutesPlayedTimerText").innerHTML = minutesPlayed;
-    
-    hoursPlayed = hoursPlayed + 1;
-    document.getElementById("hoursPlayedTimerText").innerHTML = hoursPlayed;
   }
 }
 
