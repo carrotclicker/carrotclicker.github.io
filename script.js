@@ -21,7 +21,7 @@ function secondsPlayedTimer() {
 }
 
 function minutesPlayedTimer() {
-  if (secondsPlayed = 60) {
+  if (secondsPlayed == 60) {
     secondsPlayed = 0;
     document.getElementById("secondsPlayedTimerText").innerHTML = secondsPlayed;
     
@@ -31,7 +31,7 @@ function minutesPlayedTimer() {
 }
 
 function hoursPlayedTimer() {
-  if (minutesPlayed = 60) {
+  if (minutesPlayed == 60) {
     minutesPlayed = 0;
     document.getElementById("minutesPlayedTimerText").innerHTML = minutesPlayed;
     
