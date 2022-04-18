@@ -15,12 +15,12 @@ document.body.onkeyup = function(e){
   onCarrotClick()
 }
 
-function timePlayedTimer() {
+function secondsPlayedTimer() {
   secondsPlayed = secondsPlayed + 1;
   document.getElementById("secondsPlayedTimerText").innerHTML = secondsPlayed;
 }
 
-function secondsPlayedTimer() {
+function minutesPlayedTimer() {
   if (secondsPlayed = 60) {
     secondsPlayed = 0;
     document.getElementById("secondsPlayedTimerText").innerHTML = secondsPlayed;
