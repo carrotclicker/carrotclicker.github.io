@@ -8,18 +8,37 @@ var commonCarrotPrice = 5000;
 var uncommonCarrotPrice = 50000;
 var rareCarrotPrice = 100000;
 var secondsPlayed = 0;
+var minutesPlayed = 0;
+var hoursPlayed = 0;
 
 document.body.onkeyup = function(e){
   onCarrotClick()
 }
 
-function secondsPlayedTimer() {
+function timePlayedTimer() {
   secondsPlayed = secondsPlayed + 1;
-  
   document.getElementById("secondsPlayedTimerText").innerHTML = secondsPlayed;
 }
 
-setInterval(secondsPlayedTimer, 1000);
+function minutesPlayedTimer() {
+  if (secondsPlayed = 60) {
+    secondsPlayed = 0;
+    document.getElementById("secondsPlayedTimerText").innerHTML = secondsPlayed;
+    
+    minutesPlayed = minutesPlayed + 1;
+    document.getElementById("minutesPlayedTimerText").innerHTML = minutesPlayed;
+  }
+}
+
+function hoursPlayedTimer() {
+  if (minutesPlayed = 60) {
+    minutesPlayed = 0;
+    document.getElementById("minutesPlayedTimerText").innerHTML = minutesPlayed;
+    
+    hoursPlayed = hoursPlayed + 1;
+    document.getElementById("hoursPlayedTimerText").innerHTML = hoursPlayed;
+  }
+}
 
 function onCarrotClick() {
   carrotClickPoints = carrotClickPoints + pointsGotOnCarrotClick;
