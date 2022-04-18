@@ -7,10 +7,19 @@ var autoClickPoints = 1;
 var commonCarrotPrice = 5000;
 var uncommonCarrotPrice = 50000;
 var rareCarrotPrice = 100000;
+var secondsPlayed = 0;
 
 document.body.onkeyup = function(e){
   onCarrotClick()
 }
+
+function secondsPlayedTimer() {
+  secondsPlayed = secondsPlayed + 1;
+  
+  document.getElementById("secondsPlayedTimerText").innerHTML = secondsPlayed;
+}
+
+setInterval(secondsPlayedTimer, 1000);
 
 function onCarrotClick() {
   carrotClickPoints = carrotClickPoints + pointsGotOnCarrotClick;
