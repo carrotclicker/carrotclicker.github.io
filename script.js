@@ -20,7 +20,7 @@ function timePlayedTimer() {
   document.getElementById("secondsPlayedTimerText").innerHTML = secondsPlayed;
 }
 
-function minutesPlayedTimer() {
+function secondsPlayedTimer() {
   if (secondsPlayed = 60) {
     secondsPlayed = 0;
     document.getElementById("secondsPlayedTimerText").innerHTML = secondsPlayed;
@@ -39,6 +39,8 @@ function hoursPlayedTimer() {
     document.getElementById("hoursPlayedTimerText").innerHTML = hoursPlayed;
   }
 }
+
+setInterval(secondsPlayedTimer, 1000);
 
 function onCarrotClick() {
   carrotClickPoints = carrotClickPoints + pointsGotOnCarrotClick;
