@@ -6,6 +6,18 @@
   text-align: center;
 }
 
+#hoursPlayedTimerText {
+  text-align: center;
+}
+
+#minutesPlayedTimerText {
+  text-align: center;
+}
+
+#secondsPlayedTimerText {
+  text-align: center;
+}
+
 #carrotPointsCss {
   text-align: center;
 }
