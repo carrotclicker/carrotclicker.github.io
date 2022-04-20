@@ -127,7 +127,7 @@ function epicCarrotUpgradeClick() {
     var epicCarrotImage = document.getElementBtId("epicCarrotUpgradeButton");
     epicCarrotImage.remove();
     
-    var epicCarrotText = document.getElementBtId("epicCarrotUpgradeText");
+    var epicCarrotText = document.getElementBtId("epicCarrotUpradeText");
     epicCarrotText.remove();
   } else {
     alert("You don't have enough carrots for that!");
