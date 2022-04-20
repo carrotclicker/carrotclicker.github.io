@@ -124,16 +124,17 @@ function epicCarrotUpgradeClick() {
     carrotClickPoints = carrotClickPoints - epicCarrotPrice;
     pointsGotOnCarrotClick = pointsGotONCarrotCLick + 10000;
     
-    var epicCarrotImage = document.getElementById("epicCarrotUpgradeButton");
-    epicCarrotImage.remove();
+    document.getElementById("epicCarrotUpgradeButton").remove();
     
-    var epicCarrotText = document.getElementById("epicCarrotUpradeText");
-    epicCarrotText.remove();
+    document.getElementById("epicCarrotUpradeText").remove();
   } else {
     alert("You don't have enough carrots for that!");
   }
 }
 
+
+
+/*
 function loadData() {
   localStorage.getItem("carrots");
 
@@ -142,7 +143,7 @@ function loadData() {
   document.getElementById("carrotPoints").innerHTML = carrotClickPoints;
 }
 
-/*
+
 while (true) {
   localStorage.setItem("carrots", carrotClickPoints);
   
