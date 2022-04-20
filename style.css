@@ -79,3 +79,15 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+#epicCarrotUpradeText {
+  text-align: center;
+  
+  color: purple;
+}
+
+#epicCarrotUpgradeButton {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
