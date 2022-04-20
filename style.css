@@ -52,7 +52,8 @@
 
 #commonCarrotUpgradeButton {
   display: block;
-  align: left;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #uncommonCarrotUpgradeText {
@@ -63,7 +64,8 @@
 
 #uncommonCarrotUpgradeButton {
   display: block;
-  align: right;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #rareCarrotUpgradeText {
@@ -74,7 +76,8 @@
 
 #rareCarrotUpgradeButton {
   display: block;
-  align: left;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #epicCarrotUpradeText {
@@ -85,5 +88,6 @@
 
 #epicCarrotUpgradeButton {
   display: block;
-  align: right;
+  margin-left: auto;
+  margin-right: auto;
 }
