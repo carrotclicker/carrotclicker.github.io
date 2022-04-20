@@ -12,6 +12,8 @@ var secondsPlayed = 0;
 var minutesPlayed = 0;
 var hoursPlayed = 0;
 
+alert("Website is currently a little broken. It will be fixed soon.");
+
 document.body.onkeyup = function(e){
   onCarrotClick()
 }
