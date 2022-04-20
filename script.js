@@ -124,10 +124,10 @@ function epicCarrotUpgradeClick() {
     carrotClickPoints = carrotClickPoints - epicCarrotPrice;
     pointsGotOnCarrotClick = pointsGotONCarrotCLick + 10000;
     
-    var epicCarrotImage = document.getElementBtId("epicCarrotUpgradeButton");
+    var epicCarrotImage = document.getElementById("epicCarrotUpgradeButton");
     epicCarrotImage.remove();
     
-    var epicCarrotText = document.getElementBtId("epicCarrotUpradeText");
+    var epicCarrotText = document.getElementById("epicCarrotUpradeText");
     epicCarrotText.remove();
   } else {
     alert("You don't have enough carrots for that!");
