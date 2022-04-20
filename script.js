@@ -7,6 +7,7 @@ var autoClickPoints = 1;
 var commonCarrotPrice = 5000;
 var uncommonCarrotPrice = 50000;
 var rareCarrotPrice = 100000;
+var epicCarrotPrice = 1000000;
 var secondsPlayed = 0;
 var minutesPlayed = 0;
 var hoursPlayed = 0;
@@ -113,6 +114,21 @@ function rareCarrotUpgradeClick() {
     
     var rareCarrotText = document.getElementById("rareCarrotUpgradeText");
     rareCarrotText.remove();
+  } else {
+    alert("You don't have enough carrots for that!");
+  }
+}
+
+function epicCarrotUpgradeClick() {
+  if (carrotClickPoints >= epicCarrotPrice) {
+    carrotClickPoints = carrotClickPoints - epicCarrotPrice;
+    pointsGotOnCarrotClick = pointsGotONCarrotCLick + 10000;
+    
+    var epicCarrotImage = document.getElementBtId("epicCarrotUpgradeButton");
+    epicCarrotImage.remove();
+    
+    var epicCarrotText = document.getElementBtId("epicCarrotUpgradeText");
+    epicCarrotText.remove();
   } else {
     alert("You don't have enough carrots for that!");
   }
