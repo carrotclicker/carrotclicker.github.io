@@ -1,4 +1,4 @@
-<a href="https://carrotclicker.github.io/" target="_blank">Link</a>
+<a href="https://carrotclicker.github.io/" target="blank">Link</a>
 
 # Carrot Clicker
 
