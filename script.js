@@ -122,7 +122,7 @@ function rareCarrotUpgradeClick() {
 function epicCarrotUpgradeClick() {
   if (carrotClickPoints >= epicCarrotPrice) {
     carrotClickPoints = carrotClickPoints - epicCarrotPrice;
-    pointsGotOnCarrotClick = pointsGotOnCarrotCLick + 10000;
+    pointsGotOnCarrotClick = pointsGotOnCarrotClick + 10000;
     
     document.getElementById("epicCarrotUpgradeButton").remove();
     
