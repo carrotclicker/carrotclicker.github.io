@@ -60,7 +60,7 @@ function onClickUpgrade1AutoClick() {
     
     autoClickPrice = autoClickPrice + 300;
 
-    document.getElementById("carrotFactoryPrice").innerHTML = autoClickPrice;
+    document.getElementById("carrotStandPrice").innerHTML = autoClickPrice;
     
       function onAutoClick() {
     carrotClickPoints = carrotClickPoints + 1;

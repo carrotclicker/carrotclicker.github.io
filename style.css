@@ -1,25 +1,16 @@
 #mainTitle {
   text-align: center;
+  font-family: Sans-Serif;
 }
 
 #timePlayed {
   text-align: center;
-}
-
-#hoursPlayedTimerText {
-  text-align: center;
-}
-
-#minutesPlayedTimerText {
-  text-align: center;
-}
-
-#secondsPlayedTimerText {
-  text-align: center;
+  font-family: Sans-Serif;
 }
 
 #carrotPointsCss {
   text-align: center;
+  font-family: Sans-Serif;
 }
 
 #carrotClickerButton {
@@ -30,10 +21,12 @@
 
 #upgradeTitle {
   text-align: center;
+  font-family: Sans-Serif;
 }
 
-#carrotFarmerUpgrade1PriceText {
+#carrotFarmUpgrade1PriceText {
   text-align: center;
+  font-family: Sans-Serif;
 }
 
 #clickUpgrade1 {
@@ -42,24 +35,28 @@
   margin-right: auto;
 }
 
-#carrotFactoryUpgrade2PriceText {
+#carrotStand2PriceText {
   text-align: center;
+  font-family: Sans-Serif;
 }
 
 #autoClickUpgrade2 {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  width: 500px;
+  height: 400px;
 }
 
 #carrotButtonUpgrades {
   text-align: center;
+  font-family: Sans-Serif;
 }
 
 #commonCarrotUpgradeText {
   text-align: center;
-
-  color: gray;
+  font-family: Sans-Serif;
+  color: #9e9e9e;
 }
 
 #commonCarrotUpgradeButton {
@@ -70,8 +67,8 @@
 
 #uncommonCarrotUpgradeText {
   text-align: center;
-
-  color: gray;
+  font-family: Sans-Serif;
+  color: #01ff49;
 }
 
 #uncommonCarrotUpgradeButton {
@@ -82,8 +79,8 @@
 
 #rareCarrotUpgradeText {
   text-align: center;
-  
-  color: blue;
+  font-family: Sans-Serif;
+  color: #01a9f3;
 }
 
 #rareCarrotUpgradeButton {
@@ -94,8 +91,8 @@
 
 #epicCarrotUpradeText {
   text-align: center;
- 
-  color: purple;
+  font-family: Sans-Serif;
+  color: #c600ca;
 }
 
 #epicCarrotUpgradeButton {
