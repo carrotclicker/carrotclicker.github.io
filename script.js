@@ -77,7 +77,7 @@ function onClickUpgrade1AutoClick() {
 
 function carrotInvestorMultiply() {
   if (carrotClickPoints >= carrotInvestorPrice) {
-    carrotClickPoints = carrotClickPoints * 2;
+    pointsGotOnCarrotClick = pointsGotOnCarrotClick * 2;
     
     document.getElementById("carrotInvestor3PriceText").remove();
     document.getElementById("carrotInvestorUpgrade3").remove();
