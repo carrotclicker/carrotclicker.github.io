@@ -92,7 +92,7 @@ function commonCarrotUpgradeClick() {
 function uncommonCarrotUpgradeClick() {
   if (carrotClickPoints >= uncommonCarrotPrice) {
     carrotClickPoints = carrotClickPoints - uncommonCarrotPrice;
-    pointsGotOnCarrotClick = pointsGotOnCarrotClick + 500;
+    pointsGotOnCarrotClick = pointsGotOnCarrotClick + 100;
     
     var uncommonCarrotImage = document.getElementById("uncommonCarrotUpgradeButton");
     uncommonCarrotImage.remove();
