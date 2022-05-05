@@ -3,6 +3,7 @@ var pointsGotOnCarrotClick = 1;
 var add1ClickPoints = 50;
 var pointsGotFromClickUpgrade = 0;
 var autoClickPrice = 300;
+var carrotInvestorPrice = 1000000000;
 var autoClickPoints = 1;
 var commonCarrotPrice = 5000;
 var uncommonCarrotPrice = 50000;
@@ -71,6 +72,17 @@ function onClickUpgrade1AutoClick() {
   setInterval(onAutoClick, 500);
   } else {
     alert("You don't Have enough carrots for that!");
+  }
+}
+
+function carrotInvestorMultiply() {
+  if (carrotClickPoints >= carrotInvestorPrice) {
+    carrotClickPoints = carrotClickPoints * 2;
+    
+    document.getElementById("carrotInvestor3PriceText").remove();
+    document.getElementById("carrotInvestorUpgrade3").remove();
+  } else {
+    alert("You don't have enough carrots for that!");
   }
 }
 
