@@ -1,14 +1,4 @@
-#mainTitle {
-  text-align: center;
-  font-family: Sans-Serif;
-}
-
-#timePlayed {
-  text-align: center;
-  font-family: Sans-Serif;
-}
-
-#carrotPointsCss {
+body {
   text-align: center;
   font-family: Sans-Serif;
 }
@@ -19,25 +9,10 @@
   margin-right: auto;
 }
 
-#upgradeTitle {
-  text-align: center;
-  font-family: Sans-Serif;
-}
-
-#carrotFarmUpgrade1PriceText {
-  text-align: center;
-  font-family: Sans-Serif;
-}
-
 #clickUpgrade1 {
   display: block;
   margin-left: auto;
   margin-right: auto;
-}
-
-#carrotStand2PriceText {
-  text-align: center;
-  font-family: Sans-Serif;
 }
 
 #autoClickUpgrade2 {
@@ -48,14 +23,7 @@
   height: 400px;
 }
 
-#carrotButtonUpgrades {
-  text-align: center;
-  font-family: Sans-Serif;
-}
-
 #commonCarrotUpgradeText {
-  text-align: center;
-  font-family: Sans-Serif;
   color: #9e9e9e;
 }
 
@@ -66,8 +34,6 @@
 }
 
 #uncommonCarrotUpgradeText {
-  text-align: center;
-  font-family: Sans-Serif;
   color: #01ff49;
 }
 
@@ -78,8 +44,6 @@
 }
 
 #rareCarrotUpgradeText {
-  text-align: center;
-  font-family: Sans-Serif;
   color: #01a9f3;
 }
 
@@ -90,8 +54,6 @@
 }
 
 #epicCarrotUpradeText {
-  text-align: center;
-  font-family: Sans-Serif;
   color: #c600ca;
 }
 
