@@ -87,7 +87,8 @@ function carrotInvestorMultiply() {
 }
 
 function commonCarrotUpgradeClick() {
-  if (carrotClickPoints >= commonCarrotPrice) {
+  var commonCarrotClickPoints = carrotClickPoints;
+  if (commonCarrotClickPoints >= commonCarrotPrice) {
     carrotClickPoints = carrotClickPoints - commonCarrotPrice;
     pointsGotOnCarrotClick = pointsGotOnCarrotClick + 50;
     
