@@ -86,67 +86,6 @@ function carrotInvestorMultiply() {
   }
 }
 
-function commonCarrotUpgradeClick() {
-  var commonCarrotClickPoints = carrotClickPoints;
-  if (commonCarrotClickPoints >= commonCarrotPrice) {
-    carrotClickPoints = carrotClickPoints - commonCarrotPrice;
-    pointsGotOnCarrotClick = pointsGotOnCarrotClick + 50;
-    
-    var commonCarrotImage = document.getElementById("commonCarrotUpgradeButton");
-    commonCarrotImage.remove();
-    
-    var commonCarrotText = document.getElementById("commonCarrotUpgradeText");
-    commonCarrotText.remove();
-  } else {
-    alert("You don't have enough carrots for that!");
-  }
-}
-
-function uncommonCarrotUpgradeClick() {
-  if (carrotClickPoints >= uncommonCarrotPrice) {
-    carrotClickPoints = carrotClickPoints - uncommonCarrotPrice;
-    pointsGotOnCarrotClick = pointsGotOnCarrotClick + 100;
-    
-    var uncommonCarrotImage = document.getElementById("uncommonCarrotUpgradeButton");
-    uncommonCarrotImage.remove();
-    
-    var uncommonCarrotText = document.getElementById("uncommonCarrotUpgradeText");
-    uncommonCarrotText.remove();
-  } else {
-    alert("You don't have enough carrots for that!");
-  }
-}
-
-function rareCarrotUpgradeClick() {
-  if (carrotClickPoints >= rareCarrotPrice) {
-    carrotClickPoints = carrotClickPoints - rareCarrotPrice;
-    pointsGotOnCarrotClick = pointsGotOnCarrotClick + 1000;
-    
-    var rareCarrotImage = document.getElementById("rareCarrotUpgradeButton");
-    rareCarrotImage.remove();
-    
-    var rareCarrotText = document.getElementById("rareCarrotUpgradeText");
-    rareCarrotText.remove();
-  } else {
-    alert("You don't have enough carrots for that!");
-  }
-}
-
-function epicCarrotUpgradeClick() {
-  if (carrotClickPoints >= epicCarrotPrice) {
-    carrotClickPoints = carrotClickPoints - epicCarrotPrice;
-    pointsGotOnCarrotClick = pointsGotOnCarrotClick + 10000;
-    
-    document.getElementById("epicCarrotUpgradeButton").remove();
-    
-    document.getElementById("epicCarrotUpradeText").remove();
-  } else {
-    alert("You don't have enough carrots for that!");
-  }
-}
-
-
-
 /*
 function loadData() {
   localStorage.getItem("carrots");
