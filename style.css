@@ -23,46 +23,6 @@ body {
   height: 400px;
 }
 
-#commonCarrotUpgradeText {
-  color: #9e9e9e;
-}
-
-#commonCarrotUpgradeButton {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-#uncommonCarrotUpgradeText {
-  color: #01ff49;
-}
-
-#uncommonCarrotUpgradeButton {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-#rareCarrotUpgradeText {
-  color: #01a9f3;
-}
-
-#rareCarrotUpgradeButton {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-#epicCarrotUpradeText {
-  color: #c600ca;
-}
-
-#epicCarrotUpgradeButton {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 #githubLinkButton {
   display: flex;
   align-items: center;
