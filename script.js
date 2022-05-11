@@ -116,3 +116,14 @@ function saveData() {
   window.localStorage.setItem("hoursPlayed", hoursPlayed_serialized);
 }
 */
+/*
+function loadData() {
+  let carrotClickPoints_deserialized = JSON.parse(localStorage.getItem("carrotClickPoints"));
+  document.getElementById("carrotPoints").innerHTML = carrotClickPoints_deserialized;
+  
+  let pointsGotOnCarrotClick_deserialized = JSON.parse(localStorage.getItem("pointsGotOnCarrotClick"));
+  pointsGotOnCarrotClick = pointsGotOnCarrotClick_deserialized;
+  
+  let add1ClickPoints_deserialized = JSON.parse(localStorage.getItem((add1ClickPoints));
+}
+*/
