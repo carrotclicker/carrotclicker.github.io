@@ -87,20 +87,32 @@ function carrotInvestorMultiply() {
 }
 
 /*
-function loadData() {
-  localStorage.getItem("carrots");
-
-  carrotClickPoints = localStorage.carrots;
-
-  document.getElementById("carrotPoints").innerHTML = carrotClickPoints;
-}
-
-
-while (true) {
-  localStorage.setItem("carrots", carrotClickPoints);
+function saveData() {
+  let carrotClickPoints_serialized = JSON.stringify("carrotClickPoints");
+  window.localStorage.setItem("carrotClickPoints", carrotClickPoints_serialized);
   
-  setInterval(10000);
-
-  localStorage.removeItem("carrots");
+  let pointsGotOnCarrotClick_serialized = JSON.stringify("pointsGotOnCarrotClick");
+  window.localStorage.setItem("pointsGotOnCarrotClick", pointsGotOnCarrotClick_serialized);
+  
+  let add1ClickPoints_serialized = JSON.stringify("add1ClickPoints");
+  window.localStorage.setItem("add1ClickPoints", add1ClickPoints_serialized);
+  
+  let pointsGotFromClickUpgrade_serialized = JSON.stringify("pointsGotFromClickUpgrade");
+  window.localStorage.setItem("pointsGotFromClickUpgrade", pointsGotFromClickUpgrade_serialized);
+  
+  let autoClickPrice_serialized = JSON.stringify("autoClickPrice");
+  window.localStorage.setItem("autoClickPrice", autoClickPrice_serialized);
+  
+  let autoClickPoints_serialized = JSON.stringify("autoClickPoints");
+  window.localStorage.setItem("autoClickPoints", autoClickPoints_serialized);
+  
+  let secondsPlayed_serialized = JSON.stringify("secondsPlayed");
+  window.localStorage.setItem("secondsPlayed", secondsPlayed_serialized);
+  
+  let minutesPlayed_serialized = JSON.stringify("minutesPlayed");
+  window.localStorage.setItem("minutesPlayed", minutesPlayed_serialized);
+  
+  let hoursPlayed_serialized = JSON.stringify("hoursPlayed");
+  window.localStorage.setItem("hoursPlayed", hoursPlayed_serialized);
 }
 */
