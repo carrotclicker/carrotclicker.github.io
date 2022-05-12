@@ -86,12 +86,11 @@ function carrotInvestorMultiply() {
   }
 }
 
-function inDevelopment() {
-  alert("This is currently in development. Come back soon for an update!");
-}
 
 
 function saveData() {
+  localStorage.clear();
+  
   let carrotClickPoints_serialized = JSON.stringify("carrotClickPoints");
   window.localStorage.setItem("carrotClickPoints", carrotClickPoints_serialized);
   
@@ -146,12 +145,6 @@ function loadData() {
   document.getElementById("hoursPlayedTimerText").innerHTML = hoursPlayed;
 }
 
-function clearData() {
-    let text = "Do you really want to clear";
-  if (confirm(text) == true) {
-    localStorage.clear();
-    alert("Data cleared!");
-  } else {
-     
-  }
+function inDevelopment() {
+  alert("This is currently in development. Come back soon for an update!");
 }
