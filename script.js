@@ -1,7 +1,6 @@
 var carrotClickPoints = 0;
 var pointsGotOnCarrotClick = 1;
 var add1ClickPoints = 50;
-var pointsGotFromClickUpgrade = 0;
 var autoClickPrice = 300;
 var carrotInvestorPrice = 1000000000;
 var autoClickPoints = 1;
@@ -90,7 +89,7 @@ function inDevelopment() {
   alert("This is currently in development. Come back soon for an update!");
 }
 
-/*
+
 function saveData() {
   let carrotClickPoints_serialized = JSON.stringify("carrotClickPoints");
   window.localStorage.setItem("carrotClickPoints", carrotClickPoints_serialized);
@@ -100,9 +99,6 @@ function saveData() {
   
   let add1ClickPoints_serialized = JSON.stringify("add1ClickPoints");
   window.localStorage.setItem("add1ClickPoints", add1ClickPoints_serialized);
-  
-  let pointsGotFromClickUpgrade_serialized = JSON.stringify("pointsGotFromClickUpgrade");
-  window.localStorage.setItem("pointsGotFromClickUpgrade", pointsGotFromClickUpgrade_serialized);
   
   let autoClickPrice_serialized = JSON.stringify("autoClickPrice");
   window.localStorage.setItem("autoClickPrice", autoClickPrice_serialized);
@@ -122,18 +118,39 @@ function saveData() {
 
 function loadData() {
   let carrotClickPoints_deserialized = JSON.parse(localStorage.getItem("carrotClickPoints"));
-  document.getElementById("carrotPoints").innerHTML = carrotClickPoints_deserialized;
+  carrotClickPoints = carrotClickPoints_deserialized;
+  document.getElementById("carrotPoints").innerHTML = carrotClickPoints;
   
   let pointsGotOnCarrotClick_deserialized = JSON.parse(localStorage.getItem("pointsGotOnCarrotClick"));
   pointsGotOnCarrotClick = pointsGotOnCarrotClick_deserialized;
   
   let add1ClickPoints_deserialized = JSON.parse(localStorage.getItem((add1ClickPoints));
   add1ClickPoints = add1ClickPoints_deserialized;
-  
-  let pointsGotFromClickUpgrade_deserialized = JSON.parse(localStorage.getITem("pointsGotFromClickUpgrade"));
-  pointsGotFromClickUpgrade = pointsGotFromClickUpgrade_deserialized;
+  document.getElementById("clickUpgrade1Price").innerHTML = add1ClickPoints;
   
   let autoClickPrice_deserialized = JSON.parse(localStorage.getItem("autoClickPrice"));
   autoClickPrice = autoClickPrice_deserialized;
+  document.getElementById("carrotStandPrice").innerHTML = autoClickPrice;
+  
+  let secondsPlayed_deserialized = JSON.parse(localStorage.getItem("secondsPlayed"));
+  secondsPlayed = secondsPlayed_deserialized;
+  document.getElementById("secondsPlayedTimerText").innerHTML = secondsPlayed;
+  
+  let minutesPlayed_deserialized = JSON.parse(localStorage.getItem("minutesPlayed"));
+  minutesPlayed = minutesPlayed_deserialized;
+  document.getElementById("minutesPlayedTimerText").innerHTML = minutesPlayed;
+  
+  let hoursPlayed_deserialized = JSON.parse(localStorage.getItem("hoursPlayed"));
+  hoursPlayed = hoursPlayed_deserialized;
+  document.getElementById("hoursPlayedTimerText").innerHTML = hoursPlayed;
 }
-*/
+
+function clearData() {
+    let text = "Do you really want to clear";
+  if (confirm(text) == true) {
+    localStorage.clear();
+    alert("Data cleared!");
+  } else {
+     
+  }
+}
