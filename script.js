@@ -1,4 +1,5 @@
 var carrotClickPoints = 0;
+var pointsGotFromClickUpgrade = 0;
 var pointsGotOnCarrotClick = 1;
 var add1ClickPoints = 50;
 var autoClickPrice = 300;
