@@ -86,6 +86,10 @@ function carrotInvestorMultiply() {
   }
 }
 
+function inDevelopment() {
+  alert("This is currently in development. Come back soon for an update!");
+}
+
 /*
 function saveData() {
   let carrotClickPoints_serialized = JSON.stringify("carrotClickPoints");
@@ -115,8 +119,7 @@ function saveData() {
   let hoursPlayed_serialized = JSON.stringify("hoursPlayed");
   window.localStorage.setItem("hoursPlayed", hoursPlayed_serialized);
 }
-*/
-/*
+
 function loadData() {
   let carrotClickPoints_deserialized = JSON.parse(localStorage.getItem("carrotClickPoints"));
   document.getElementById("carrotPoints").innerHTML = carrotClickPoints_deserialized;
@@ -125,5 +128,12 @@ function loadData() {
   pointsGotOnCarrotClick = pointsGotOnCarrotClick_deserialized;
   
   let add1ClickPoints_deserialized = JSON.parse(localStorage.getItem((add1ClickPoints));
+  add1ClickPoints = add1ClickPoints_deserialized;
+  
+  let pointsGotFromClickUpgrade_deserialized = JSON.parse(localStorage.getITem("pointsGotFromClickUpgrade"));
+  pointsGotFromClickUpgrade = pointsGotFromClickUpgrade_deserialized;
+  
+  let autoClickPrice_deserialized = JSON.parse(localStorage.getItem("autoClickPrice"));
+  autoClickPrice = autoClickPrice_deserialized;
 }
 */
