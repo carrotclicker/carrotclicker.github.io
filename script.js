@@ -1,4 +1,3 @@
-alert("website is down right now, come back later");
 var carrotClickPoints = 0;
 var pointsGotFromClickUpgrade = 0;
 var pointsGotOnCarrotClick = 1;
