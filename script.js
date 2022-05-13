@@ -87,7 +87,7 @@ function carrotInvestorMultiply() {
 }
 
 
-/*
+
 function saveData() {
   localStorage.clear();
   
@@ -115,6 +115,7 @@ function saveData() {
   let hoursPlayed_serialized = JSON.stringify("hoursPlayed");
   window.localStorage.setItem("hoursPlayed", hoursPlayed_serialized);
 }
+
 
 function loadData() {
   let carrotClickPoints_deserialized = JSON.parse(localStorage.getItem("carrotClickPoints"));
@@ -144,7 +145,10 @@ function loadData() {
   hoursPlayed = hoursPlayed_deserialized;
   document.getElementById("hoursPlayedTimerText").innerHTML = hoursPlayed;
 }
-*/
+
+function clearData() {
+  localStorage.clear();
+}
 
 function inDevelopment() {
   alert("This is currently in development. Come back soon for an update!");
