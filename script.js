@@ -86,8 +86,7 @@ function carrotInvestorMultiply() {
   }
 }
 
-
-
+/*
 function saveData() {
   localStorage.clear();
   
@@ -145,7 +144,7 @@ function loadData() {
   hoursPlayed = hoursPlayed_deserialized;
   document.getElementById("hoursPlayedTimerText").innerHTML = hoursPlayed;
 }
-
+*/
 function inDevelopment() {
   alert("This is currently in development. Come back soon for an update!");
 }
