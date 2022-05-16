@@ -2,4 +2,5 @@
 
 # Carrot Clicker
 
-This page is currently in development. Come back soon.
+## Update 0.0.1
+> Added everything lol
