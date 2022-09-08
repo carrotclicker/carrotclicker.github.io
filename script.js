@@ -145,6 +145,3 @@ function loadData() {
   document.getElementById("hoursPlayedTimerText").innerHTML = hoursPlayed;
 }
 */
-function inDevelopment() {
-  alert("This is currently in development. Come back soon for an update!");
-}
